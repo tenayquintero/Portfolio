@@ -1,0 +1,55 @@
+.doors{
+    display: flex;
+    
+}
+.doors-doorLeft,.doors-doorRigth{
+display: inline-block;
+height: 300px;
+width: 200px;
+border: solid 2px rgb(149, 0, 255);
+}
+
+.doors-doorLeft.open{
+   animation-name: doorLeft;
+   animation-duration: 3s;
+   position: relative;
+   
+
+}
+@keyframes doorLeft {
+    from{
+        right :0px ;
+    }
+    to{
+       
+     right :600px;
+    }
+}
+.doors-doorRigth.open{
+    animation-name: doorRigth;
+    animation-duration: 3s;
+    position: relative;
+}
+@keyframes doorRigth{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 600px;
+        display: none;
+    }
+}
+.doors-doorRigth.open.bye, .doors-doorLeft.open.bye{
+    display: none;
+}
+
+
+/* @keyframes doorLeft {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+} */

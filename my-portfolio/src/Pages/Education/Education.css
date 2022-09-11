@@ -1,0 +1,28 @@
+.imgsEducation{
+    width: 90px;
+    height: 70px;
+    object-fit: contain;
+    
+}
+.education{
+    margin: 2rem;
+}
+.education main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:3rem;
+    padding: 3rem;
+}
+.education-dam-card, .education-bootcamp-card, .education-english-card{
+    box-shadow: 0px 1px 4px 1px grey;
+    width: 300px;
+    height: 300px;
+}
+.education-dam figure{
+    text-align: start;
+}
+.education-bootcamp figure{
+    text-align: end;
+}

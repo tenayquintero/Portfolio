@@ -1,0 +1,27 @@
+.about {
+    margin:2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px red;
+}
+
+.about-me {
+    border: 2px solid blue;
+    align-self: flex-start;
+   
+ }
+.about-me p, .about-code p, .profile{
+    height: 200px;
+    width: 200px;
+}
+
+.about-code {
+    border: 2px blue solid;
+    align-self: flex-end;
+   
+   
+}
+
+h2 {
+    font-size: 30px;
+}

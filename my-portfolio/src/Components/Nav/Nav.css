@@ -1,9 +1,14 @@
-nav ul{
+.nav-menu{
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap:1rem
+   gap:1rem;
+   color:azure
 
 
+}
+ li{
+        text-decoration: none;
+        color:azure
 }

@@ -1,4 +1,7 @@
-*{
+/* #############
+   ###OVERALL###
+   ############# */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,25 +10,25 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
+  
 }
-.App-header{
- 
+
+.App-header {
+
   display: flex;
   justify-content: center;
   padding: 2rem;
- background-repeat: no-repeat;
- background-size: cover;
- 
-
-  
-  
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 4px 7px 1px rgb(68, 25, 63);
 
 
 }
-
-
-
-
+h2 {
+  font-size: 30px;
+  background-image: linear-gradient(0deg, rgba(155, 10, 92, 0.998) 0%, rgb(59, 50, 128) 80%);
+  color: transparent;
+  background-clip: text;
+}

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import backGroundDoors from '../images/backgroundDoor.jpg'
 import './Doors.css'
 const Doors = ({ children }) => {
     const [open, setOpen] = useState(false)
@@ -16,12 +17,20 @@ const Doors = ({ children }) => {
     return (
         <div onClick={handleOnclick} >
             <div className="doors">
-                <span className={'doors-doorLeft ' + (open && 'open ') + (showChildren && 'bye')}></span>
-                <span className={'doors-doorRigth ' + (open && 'open ') + (showChildren && 'bye')}></span>
-                </div>
-                {showChildren &&
-                    <div className='children'>{children}</div>
-                }
+                <span
+                    className={'doors-doorLeft ' + (open && 'open ') + (showChildren && 'bye')}
+                    style={{ backgroundImage: `url(${backGroundDoors})` }}
+                >Llama a
+                    <p className='pomo'>🔶</p>
+                </span>
+                <span
+                    className={'doors-doorRigth ' + (open && 'open ') + (showChildren && 'bye')}
+                    style={{ backgroundImage: `url(${backGroundDoors})` }}
+                >la puerta</span>
+            </div>
+            {showChildren &&
+                <div className='children'>{children}</div>
+            }
         </div>
     )
 }

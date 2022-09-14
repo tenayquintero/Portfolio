@@ -1,14 +1,42 @@
-.nav-menu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-   gap:1rem;
-   color:azure
+nav {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem
+}
 
+.nav-menu,
+.menuSocialMedia {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        gap: 1rem;
 
 }
- li{
+
+.nav-menu li {
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+
+}
+
+.nav-menu li a {
         text-decoration: none;
-        color:azure
+        color: azure;
+        padding: 0.5rem;
+}
+
+li a.active {
+        box-shadow: 1px 2px 8px 1px grey;
+        border-radius: 15px;
+}
+
+.menuSocialMedia li a {
+
+        background-position: center;
+        background-size: cover;
+        height: 2rem;
+        width: 2rem;
+        display: block;
 }

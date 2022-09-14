@@ -2,11 +2,12 @@
     margin:2rem 5rem;
     display: flex;
     flex-direction: column;
-    border: solid 2px red;
+    gap:1rem
+   
 }
 
 .about-me {
-    border: 2px solid blue;
+box-shadow: 1px 0px 6px 1px grey;
     align-self: flex-start;
    
  }
@@ -16,12 +17,8 @@
 }
 
 .about-code {
-    border: 2px blue solid;
+  box-shadow: 1px 0px 6px 1px grey;
     align-self: flex-end;
    
    
-}
-
-h2 {
-    font-size: 30px;
 }

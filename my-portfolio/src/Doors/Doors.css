@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
 .doors {
     display: flex;
     justify-content: center;
@@ -10,9 +12,36 @@
     display: inline-block;
     height: 300px;
     width: 200px;
-    border: solid 2px rgb(149, 0, 255);
+    box-shadow: 1px 4px 4px 4px grey;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    padding: 8rem 0;
+    background-size: cover;
+
 
 }
+
+.doors-doorRigth {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-right: 7rem;
+}
+
+.doors-doorLeft {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 7rem;
+}
+
+.pomo {
+    font-size: 30px;
+    margin-left: 66px;
+    position: absolute;
+    cursor: pointer;
+    text-shadow: 0.1em 0.1em 0.2em black
+    
+}
+
 
 .doors-doorLeft.open {
     animation-name: doorLeft;

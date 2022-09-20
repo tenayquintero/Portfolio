@@ -1,24 +1,57 @@
 .about {
-    margin:2rem 5rem;
+    margin: 2rem 5rem;
     display: flex;
     flex-direction: column;
-    gap:1rem
-   
+    gap: 1rem;
+
 }
 
+.about.showAbout {
+    animation-name: showAbout;
+    position: relative;
+    animation-duration: 3s;
+}
+
+@keyframes showAbout {
+    from {
+        transform: scale(0);
+    }
+
+}
+
+
+
 .about-me {
-box-shadow: 1px 0px 6px 1px grey;
+    box-shadow: 1px 0px 6px 1px grey;
     align-self: flex-start;
-   
- }
-.about-me p, .about-code p, .profile{
-    height: 200px;
-    width: 200px;
+    padding: 1rem 0.5rem;
+    text-align: center;
+
 }
 
 .about-code {
-  box-shadow: 1px 0px 6px 1px grey;
+    box-shadow: 1px 0px 6px 1px grey;
     align-self: flex-end;
+    padding: 1rem 0.5rem;
+
+}
+
+.about-me ,
+.about-code  {
+    height: 250px;
+    width: 250px;
+    margin: 3px;
+  
    
-   
+
+}
+.about-me p,
+.about-code p{
+    height: 100%;
+    margin-top: 1rem;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
 }

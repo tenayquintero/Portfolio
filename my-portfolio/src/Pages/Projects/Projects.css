@@ -1,0 +1,26 @@
+.projects {
+    margin: 2rem;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+.projects-list li {
+    list-style: none;
+
+}
+
+.projects-list li img {
+    width: 300px;
+    height: 300px;
+    border: solid 2px grey;
+    object-fit: cover;
+
+    /* box-shadow: 9px 0px 4px 4px grey; */
+}

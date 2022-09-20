@@ -1,7 +1,18 @@
-nav {
+nav.showNav{
         display: flex;
         flex-direction: column;
-        gap: 3rem
+        gap: 3rem;
+        animation-name: showNav;
+        position: relative;
+        animation-duration: 3s;
+}
+@keyframes showNav{
+        from{
+                top:-200px
+        }
+        to{
+                top:0;
+        }
 }
 
 .nav-menu,
@@ -25,6 +36,7 @@ nav {
         text-decoration: none;
         color: azure;
         padding: 0.5rem;
+       
 }
 
 li a.active {
@@ -39,4 +51,5 @@ li a.active {
         height: 2rem;
         width: 2rem;
         display: block;
+        font-size: 0;
 }

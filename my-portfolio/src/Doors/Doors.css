@@ -2,10 +2,25 @@
 
 .doors {
     display: flex;
-    justify-content: center;
+}
+
+.container-bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
     align-items: center;
+    justify-content: center;
 
 }
+
+.container-bg.none {
+    display: none;
+}
+
 
 .doors-doorLeft,
 .doors-doorRigth {
@@ -39,15 +54,12 @@
     position: absolute;
     cursor: pointer;
     text-shadow: 0.1em 0.1em 0.2em black
-    
 }
-
 
 .doors-doorLeft.open {
     animation-name: doorLeft;
     animation-duration: 3s;
     position: relative;
-
 
 }
 
@@ -78,8 +90,19 @@
         display: none;
     }
 }
+@media (max-width: 430px) {
+    .doors-doorLeft,
+        .doors-doorRigth {
+            height: 250px;
+            width: 150px;
+            /* font-size: 10px; */
+            padding: 6rem 0;
+        }
+                .pomo {
+                 
+                    margin-left: 127.5px;
+                    
+                }
 
-.doors-doorRigth.open.bye,
-.doors-doorLeft.open.bye {
-    display: none;
+    
 }

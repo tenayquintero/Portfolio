@@ -1,0 +1,48 @@
+.mailer {
+    height: 300px;
+    width: 300px;
+    margin-top: 2rem;
+    display: grid;
+    align-content: center;
+  
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+   
+}
+
+form input,
+textarea {
+    height: 30px;
+    border: none;
+    border-bottom: solid 2px rebeccapurple;
+    background-color: transparent;
+    color: aliceblue;
+    padding: 0 0.5rem;
+
+}
+
+form textarea {
+    height: 60px;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    background: linear-gradient(90deg, rgb(69, 68, 69) 0%, rgb(21, 20, 21) 100%);
+
+}
+
+form button {
+    margin-top: 1rem;
+    height: 30px;
+    width: 100px;
+    align-self: center;
+    border: none;
+    background: var(--degradient);
+    border-radius: 4px;
+    color: aliceblue;
+}

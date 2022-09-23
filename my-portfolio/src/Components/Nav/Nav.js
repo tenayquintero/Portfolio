@@ -1,7 +1,8 @@
 import { NavLink } from 'react-router-dom';
 import gitHub from '../../images/gitHubIcon.png'
 import linKedin from '../../images/linkedin.png'
-import email from '../../images/email.png'
+import Modal from '../Modal';
+import Mailer from './Mailer';
 import './Nav.css'
 
 
@@ -32,15 +33,11 @@ const Nav = ({ showNav }) => {
                     >
                         linkedin
                     </a>
-
                 </li>
-                <li>
-                    <a
-                        href='https://github.com/tenayquintero'
-                        style={{ backgroundImage: `url(${email})` }} >
-                        email
-                    </a>
-                </li>
+                <Modal name={'mailIcon'}>
+                   <Mailer/>
+                </Modal>
+               
             </ul>
         </nav>
     )

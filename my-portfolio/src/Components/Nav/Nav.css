@@ -1,4 +1,4 @@
-nav.showNav{
+nav.showNav {
         display: flex;
         flex-direction: column;
         gap: 3rem;
@@ -6,12 +6,14 @@ nav.showNav{
         position: relative;
         animation-duration: 3s;
 }
-@keyframes showNav{
-        from{
-                top:-200px
+
+@keyframes showNav {
+        from {
+                top: -200px
         }
-        to{
-                top:0;
+
+        to {
+                top: 0;
         }
 }
 
@@ -36,7 +38,7 @@ nav.showNav{
         text-decoration: none;
         color: azure;
         padding: 0.5rem;
-       
+
 }
 
 li a.active {
@@ -44,7 +46,8 @@ li a.active {
         border-radius: 15px;
 }
 
-.menuSocialMedia li a {
+.menuSocialMedia li a, .mailIcon
+ {
 
         background-position: center;
         background-size: cover;
@@ -52,4 +55,10 @@ li a.active {
         width: 2rem;
         display: block;
         font-size: 0;
+}
+
+.mailIcon {
+        background-image: url('../../images/email.png');
+      
+        display: inline-block;
 }

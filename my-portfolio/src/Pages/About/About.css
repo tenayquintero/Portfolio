@@ -8,7 +8,6 @@
 
 .about.showAbout {
     animation-name: showAbout;
-    position: relative;
     animation-duration: 3s;
 }
 

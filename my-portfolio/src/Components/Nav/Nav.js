@@ -5,10 +5,9 @@ import Modal from '../Modal';
 import Mailer from './Mailer';
 import './Nav.css'
 
-
 const Nav = ({ showNav }) => {
     return (
-        <nav className={showNav && 'showNav'}>
+        <nav className={showNav ? 'showNav' : undefined}>
             <ul className='nav-menu'>
                 <li><NavLink to='/' end >Sobre mi</NavLink> </li>
                 <li><NavLink to='/education'>Formación</NavLink></li>

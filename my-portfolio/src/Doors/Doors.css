@@ -21,7 +21,6 @@
     display: none;
 }
 
-
 .doors-doorLeft,
 .doors-doorRigth {
     display: inline-block;
@@ -32,8 +31,6 @@
     font-size: 20px;
     padding: 8rem 0;
     background-size: cover;
-
-
 }
 
 .doors-doorRigth {
@@ -53,7 +50,12 @@
     margin-left: 66px;
     position: absolute;
     cursor: pointer;
-    text-shadow: 0.1em 0.1em 0.2em black
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.pomo.turn {
+    transform: rotate(-100deg);
+    transition-duration: 1s;
 }
 
 .doors-doorLeft.open {
@@ -90,17 +92,19 @@
         display: none;
     }
 }
+
 @media (max-width: 430px) {
+
     .doors-doorLeft,
-        .doors-doorRigth {
-            height: 250px;
-            width: 150px;
-            /* font-size: 10px; */
-            padding: 6rem 0;
-        }
-                .pomo {
-                 
-                    margin-left: 127.5px;
-                    
-                }
+    .doors-doorRigth {
+        height: 250px;
+        width: 150px;
+        padding: 6rem 0;
+    }
+
+    .pomo {
+
+        margin-left: 127.5px;
+
+    }
 }

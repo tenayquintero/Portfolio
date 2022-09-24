@@ -5,6 +5,7 @@ nav.showNav {
         animation-name: showNav;
         position: relative;
         animation-duration: 3s;
+        font-family:sans-serif
 }
 
 @keyframes showNav {
@@ -59,6 +60,5 @@ li a.active {
 
 .mailIcon {
         background-image: url('../../images/email.png');
-      
         display: inline-block;
 }

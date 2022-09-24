@@ -21,8 +21,8 @@ const About = ({ showAbout }) => {
                 <p>Desde hace dos años mi formación va encaminada al sector tecnológico
                     adquiriendo importantes habilidades que me ayudan a sacar proyectos 
                     adelante.
-                    si quieres saber más visita un poco más a fondo mi web
-                    !Nos vemos¡
+                    si quieres saber un poquito más, animate a explorar mi web
+                    ¡Nos vemos!
                 </p>
             </section>
 

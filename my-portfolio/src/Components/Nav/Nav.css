@@ -47,13 +47,11 @@ li a.active {
         border-radius: 15px;
 }
 
-.menuSocialMedia li a, .mailIcon
- {
-
+.menuSocialMedia li a, .mailIcon{
         background-position: center;
         background-size: cover;
-        height: 2rem;
-        width: 2rem;
+        height: 2.7rem;
+        width: 2.7rem;
         display: block;
         font-size: 0;
 }

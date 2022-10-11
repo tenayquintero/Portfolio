@@ -1,14 +1,18 @@
-.mailer {
-    height: 300px;
+.mailer,
+.maintenance {
+    height: 400px;
     width: 300px;
-    margin-top: 2rem;
-    display: grid;
-    align-content: center;
+    margin: 5rem auto;
+    box-shadow: 1px 4px 8px 8px rgb(75, 2, 58);
+    background-color: black;
+    color: white;
+
 }
 
 form {
     display: flex;
     flex-direction: column;
+    padding: 5rem 0;
     gap: 1rem;
 }
 
@@ -45,7 +49,28 @@ form button {
     color: aliceblue;
     font-size: 18px;
 }
-.messageEmailSend{
+
+.messageEmailSend {
     margin-top: 1rem;
 
 }
+
+/* .bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--degradient);
+    background:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .mailer {
+    box-shadow: 1px 4px 8px 8px rgb(75, 2, 58);
+    background-color: black;
+    color: white;
+    padding: 20px;
+} */

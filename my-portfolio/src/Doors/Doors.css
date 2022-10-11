@@ -72,7 +72,7 @@
 
     to {
 
-        right: 600px;
+        right: 800px;
     }
 }
 
@@ -88,7 +88,7 @@
     }
 
     to {
-        left: 600px;
+        left: 800px;
         display: none;
     }
 }

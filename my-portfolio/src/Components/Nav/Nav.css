@@ -5,7 +5,7 @@ nav.showNav {
         animation-name: showNav;
         position: relative;
         animation-duration: 3s;
-        font-family:sans-serif
+        font-family: sans-serif
 }
 
 @keyframes showNav {
@@ -47,13 +47,15 @@ li a.active {
         border-radius: 15px;
 }
 
-.menuSocialMedia li a, .mailIcon{
+.menuSocialMedia li a,
+.mailIcon {
         background-position: center;
         background-size: cover;
         height: 2.7rem;
         width: 2.7rem;
         display: block;
         font-size: 0;
+        border-radius: 50%;
 }
 
 .mailIcon {

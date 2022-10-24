@@ -1,17 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 /* #############
    ###OVERALL###
    ############# */
-   
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-  html {
-      --degradient: linear-gradient(90deg, rgb(245, 29, 184) 0%, rgb(104, 2, 145) 100%);
+html {
+  --degradient: linear-gradient(90deg, rgb(245, 29, 184) 0%, rgb(104, 2, 145) 100%);
 }
 
 .App {
@@ -43,6 +42,8 @@
 
 }
 
+
+
 @keyframes moveHeadUp {
   0% {
     left: 0px;
@@ -69,6 +70,6 @@ h2 {
 footer {
   background: var(--degradient);
   color: white;
-  height: 1.5rem;
+
 
 }

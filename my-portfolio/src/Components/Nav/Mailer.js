@@ -24,6 +24,7 @@ const Mailer = () => {
     setName("");
     setEmail("");
     setMessage("");
+    console.log(res.status);
   };
 
   return (
@@ -58,17 +59,17 @@ const Mailer = () => {
           />
         </label>
         <button>send</button>
+        {res?.status === 200 && (
+          <p className="messageEmailSend">
+            ¡Hola! acabo de recibir tu mensaje. Muchísimas gracias.
+          </p>
+        )}
+        {res?.status === 0 && (
+          <p className="messageEmailSend">
+            ups! No se ha podido enviar el mensaje
+          </p>
+        )}
       </form>
-      {res?.status === 200 && (
-        <p className="messageEmailSend">
-          ¡Hola! acabo de recibir tu mensaje. Muchísimas gracias.
-        </p>
-      )}
-      {res?.status === 0 && (
-        <p className="messageEmailSend">
-          ups! No se ha podido enviar el mensaje
-        </p>
-      )}
     </section>
     // </div>
   );

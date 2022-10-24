@@ -12,6 +12,28 @@ const Projects = () => {
       <ul className="projects-list">
         <li>
           <section className="cardProjects">
+            <h3>ShareLink</h3>
+            <NavLink to="/maintenance">
+              <img src={shareLink} alt="shareLink" className="shareLink" />
+            </NavLink>
+
+            <p>
+              Aplicación para navegar entre enlaces compartidos por usuarios y
+              publicar tu propio enlace.
+            </p>
+            <footer className="footerCard">
+              <a
+                href="https://github.com/tenayquintero/ShareLink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ir al código
+              </a>
+            </footer>
+          </section>
+        </li>
+        <li>
+          <section className="cardProjects">
             <h3>Find the partner</h3>
             <a
               href="https://findthepartner.netlify.app/"
@@ -21,6 +43,15 @@ const Projects = () => {
               <img src={findThePartner} alt="find the partner" />
             </a>
             <p>Juego donde deberas descubrir la pareja de la carta revelada</p>
+            <footer className="footerCard">
+              <a
+                href="https://github.com/tenayquintero/findThePartner"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ir al código
+              </a>
+            </footer>
           </section>
         </li>
         <li>
@@ -34,6 +65,15 @@ const Projects = () => {
               <img src={theSimpsons} alt="the simpsons" />
             </a>
             <p>Un simpático buscador de los personajes Simpson</p>
+            <footer className="footerCard">
+              <a
+                href="https://github.com/tenayquintero/ApiSimpsons"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ir al código
+              </a>
+            </footer>
           </section>
         </li>
         <li>
@@ -50,6 +90,15 @@ const Projects = () => {
               Api donde podrás realizar búsqueda de fotos y añadirlas a
               favoritos
             </p>
+            <footer className="footerCard">
+              <a
+                href="https://github.com/tenayquintero/PhotoGallery"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ir al código
+              </a>
+            </footer>
           </section>
         </li>
         <li>
@@ -64,19 +113,15 @@ const Projects = () => {
             </a>
 
             <p>No podía faltar un listado de tareas pendientes</p>
-          </section>
-        </li>
-        <li>
-          <section className="cardProjects">
-            <h3>ShareLink</h3>
-            <NavLink to="/maintenance">
-              <img src={shareLink} alt="shareLink" className="shareLink" />
-            </NavLink>
-
-            <p>
-              Aplicación para navegar entre enlaces compartidos por usuarios y
-              publicar tu propio enlace.
-            </p>
+            <footer className="footerCard">
+              <a
+                href="https://github.com/tenayquintero/ToDoUp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ir al código
+              </a>
+            </footer>
           </section>
         </li>
       </ul>
